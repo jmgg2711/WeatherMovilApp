@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtView_HeaderApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:text="Introduce la ciudad..." />
+
+    <EditText
+        android:id="@+id/edTxt_Ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="12dp"
+        android:textSize="32sp"
+        android:inputType="text"
+        android:hint="Ciudad" />
+
+    <TextView
+        android:id="@+id/txtView_Temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="12sp"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:text="Temperatura: None" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="12sp"
+        android:text="Buscar" />
+</LinearLayout>
